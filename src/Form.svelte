@@ -32,7 +32,7 @@
         <Input
           type="text"
           id="dadJokesSearch"
-          placeholder="Search For Your Favorite Dad Joeks" />
+          placeholder="Search For Your Favorite Dad Jokes" />
       </FormGroup>
     </Col>
     <Col md="4" xs="12">
