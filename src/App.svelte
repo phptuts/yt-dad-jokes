@@ -1,6 +1,7 @@
 <script>
   import { Col, Container, Row } from "sveltestrap";
   import JokeForm from "./Form.svelte";
+  import Joke from "./Joke.svelte";
 </script>
 
 <Container>
@@ -10,5 +11,9 @@
     </Col>
   </Row>
   <JokeForm />
-
+  <Row>
+    <Col>
+      <Joke joke="test joke: 0" />
+    </Col>
+  </Row>
 </Container>
